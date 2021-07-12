@@ -11,7 +11,7 @@ namespace zadatak2
 
             var passwords = new List<string>();
 
-            for (int i = 0; i < 1000; i++)
+            for (int i = 0; i < 10; i++)
             {
                 passwords.Add(passwordGenerator.generatePassword(10));
             }
