@@ -8,7 +8,8 @@ namespace zadatak2
     {
         public override string generatePassword(int size)
         {
-            throw new NotImplementedException();
+            // This is bad; TODO implement
+            throw new NotImplementedException("TODO");
         }
     }
 }
