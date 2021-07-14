@@ -19,7 +19,7 @@ namespace zadatak2
             passwords.ForEach(delegate (string password)
             {
                 Console.WriteLine(password);
-            });
+            }); 
         }
     }
 }
