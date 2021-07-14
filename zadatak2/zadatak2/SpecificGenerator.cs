@@ -19,7 +19,7 @@ namespace zadatak2
                 pass.Append(c);
             }
 
-            return pass.ToString();
+            return pass.ToString(); 
         }
     }
 }
