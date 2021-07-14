@@ -7,7 +7,7 @@ namespace zadatak2
     {
         static void Main(string[] args)
         {
-            PasswordGenerator passwordGenerator = new BasicPasswordGenerator();
+            PasswordGenerator passwordGenerator = new SpecificGenerator();
 
             var passwords = new List<string>();
 
