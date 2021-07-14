@@ -8,7 +8,13 @@ namespace zadatak2
     {
         public override string generatePassword(int size)
         {
-            throw new NotImplementedException();
+            StringBuilder passwordBuilder = new StringBuilder();
+
+            for (int i = 0; i < size; i++)
+            {
+                passwordBuilder.Append(this.getRandomCharacter());
+            }
+            return passwordBuilder.ToString();
         }
     }
 }
